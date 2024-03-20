@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#2AD332</color>
+    <color name="darkgreen">#106A0D</color>
+    <color name="my_button.xml">#306314</color> <!-- Example color -->
+
+</resources>

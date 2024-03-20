@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="go_to_home_page_button" type="id" />
+    <item name="go_to_login_page_button" type="id" />
+    <item name="editTextEmail" type="id" />
+    <item name="editTextPassword" type="id" />
+    <item name="buttonLogin" type="id" />
+    <item name="buttonSignIn" type="id" />
+</resources>

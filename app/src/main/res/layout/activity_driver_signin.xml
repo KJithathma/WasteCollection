@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driver_signin">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/waste_management_concept_segregation_separation_garbage_cans_sorting_recycling_disposal_refuse_bin_vector_illustration"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-124dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo3" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/earth_cleaning_planet_natural_environment__earth__globe__recycling__logo_png_removebg_preview"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="297dp"
+        tools:text="DRIVER'S SIGN IN"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/name"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="403dp"
+        tools:ignore="LabelFor,MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="309dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="476dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="571dp"
+        tools:text="Sign in"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/untitled"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="43dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/password_clipart_hd_png__circle_password_icon_vectors__circle_icons__password_icons__password_png_image_for_free_download"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

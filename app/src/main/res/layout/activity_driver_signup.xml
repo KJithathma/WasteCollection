@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driver_signup">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/waste_management_concept_segregation_separation_garbage_cans_sorting_recycling_disposal_refuse_bin_vector_illustration"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-115dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo6" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:text="DRIVER'S SIGNUP"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/earth_cleaning_planet_natural_environment__earth__globe__recycling__logo_png_removebg_preview"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="448dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/garbage_truck_outline_vector_icon_on_flicko_io"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="521dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/name2"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="362dp"
+        tools:text="Driver name "
+        tools:ignore="LabelFor,MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="419dp"
+        tools:text="ID Number"
+        tools:ignore="LabelFor,MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="473dp"
+        tools:text="Telephone No"
+        tools:ignore="LabelFor,MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/name3"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="527dp"
+        tools:text="Vehicle No"
+        tools:ignore="LabelFor,MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="583dp"
+        tools:text="Email"
+        tools:ignore="LabelFor,MissingConstraints"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="643dp"
+        tools:text="SIGNUP"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/account__user__interface__profile_icon___free_download"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="369dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="94dp"
+        android:layout_height="41dp"
+        app:srcCompat="@drawable/______________png___________pngtree"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="410dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="45dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/glyphs_silhouette_png_images__calling_telephone_glyph_icon_vector__telephone_icons__calling__call_png_image_for_free_download"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="62dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/ic_nes_de_email_en_t_l_chargement_gratuit"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="583dp"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "975841560622",
+    "project_id": "correct1-a28b3",
+    "storage_bucket": "correct1-a28b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975841560622:android:25eb0182ddfb6ba01fb7bf",
+        "android_client_info": {
+          "package_name": "com.example.correct1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxoRVjixOZpaEfvaz8MNK6pLrdC_haGf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975841560622:android:dfd864d3b15fea2b1fb7bf",
+        "android_client_info": {
+          "package_name": "com.example.garbadgeapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxoRVjixOZpaEfvaz8MNK6pLrdC_haGf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975841560622:android:2fc824c26919b7971fb7bf",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxoRVjixOZpaEfvaz8MNK6pLrdC_haGf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
